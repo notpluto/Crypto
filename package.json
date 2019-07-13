@@ -1,0 +1,41 @@
+{
+  "name": "CryptoTracker",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "remotedev": {
+    "hostname": "localhost",
+    "port": 5678
+  },
+  "dependencies": {
+    "@react-native-community/cli-platform-android": "^2.4.1",
+    "axios": "^0.19.0",
+    "react": "16.8.6",
+    "react-native": "0.60.0",
+    "react-native-loading-spinner-overlay": "^1.0.1",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.1",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/runtime": "^7.5.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.8.0",
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.8.6",
+    "redux-logger": "^3.0.6",
+    "remote-redux-devtools": "^0.5.16",
+    "remotedev-rn-debugger": "^0.8.4"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
